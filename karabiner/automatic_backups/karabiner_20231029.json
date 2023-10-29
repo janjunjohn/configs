@@ -95,14 +95,14 @@
                         ]
                     },
                     {
-                        "description": "Change fn + h/j/k/l to Arrows",
+                        "description": "Change control + h/j/k/l to Arrows",
                         "manipulators": [
                             {
                                 "from": {
                                     "key_code": "h",
                                     "modifiers": {
                                         "mandatory": [
-                                            "fn"
+                                            "control"
                                         ],
                                         "optional": [
                                             "caps_lock"
@@ -121,7 +121,7 @@
                                     "key_code": "j",
                                     "modifiers": {
                                         "mandatory": [
-                                            "fn"
+                                            "control"
                                         ],
                                         "optional": [
                                             "caps_lock"
@@ -140,7 +140,7 @@
                                     "key_code": "k",
                                     "modifiers": {
                                         "mandatory": [
-                                            "fn"
+                                            "control"
                                         ],
                                         "optional": [
                                             "caps_lock"
@@ -159,7 +159,7 @@
                                     "key_code": "l",
                                     "modifiers": {
                                         "mandatory": [
-                                            "fn"
+                                            "control"
                                         ],
                                         "optional": [
                                             "caps_lock"
