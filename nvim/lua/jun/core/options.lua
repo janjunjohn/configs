@@ -12,3 +12,4 @@ opt.tabstop = 4
 opt.expandtab = true
 opt.textwidth = 0
 opt.autoindent = true
+opt.undofile = true
