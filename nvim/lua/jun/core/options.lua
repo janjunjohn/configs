@@ -13,3 +13,10 @@ opt.expandtab = true
 opt.textwidth = 0
 opt.autoindent = true
 opt.undofile = true
+
+vim.api.nvim_create_autocmd("InsertLeave", {
+  pattern = "*",
+  callback = function()
+    os.execute("im-select com.apple.keylayout.ABC")
+  end,
+})
